@@ -1,0 +1,95 @@
+.login {
+  padding-top: 191px;
+  background: #f9f9f9;
+  padding-bottom: 99px;
+}
+.login .content_login {
+  width: 364px;
+  margin: auto;
+}
+.content_login h1 {
+  color: #262525;
+  text-align: center;
+  font-family: Noto Sans;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: -0.96px;
+  width: fit-content;
+  margin: auto;
+}
+.login .content_login .list_box .box span::after {
+  content: "";
+}
+.login .remember_me {
+  margin-top: 22px;
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+.login .remember_me input[type="checkbox"] {
+  border-radius: 5px;
+  border: 1px solid #e6e6e6;
+  background: #fff;
+  width: 22px;
+  height: 22px;
+  flex-shrink: 0;
+}
+.login .remember_me span {
+  color: #615d5d;
+  font-size: 13px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: normal;
+  letter-spacing: -0.39px;
+}
+.login .content_login .log_in{
+    width: 364px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 50px;
+  flex-shrink: 0;
+  border-radius: 5px;
+  border: 1px solid #06965c;
+  background: #06965c;
+  color: #fff;
+  text-align: center;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  margin-top: 18px;
+}
+.login .content_login  div{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    align-items: center;
+    justify-content: center;
+    margin-top: 29px;
+    
+}
+.login .content_login  div .recover_password{
+    color: #06965C;
+    text-align: center;
+    font-family: Noto Sans;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+    letter-spacing: -0.45px;
+}
+.login .content_login  div p{
+    color: #414141;
+font-family: Noto Sans;
+font-size: 15px;
+font-style: normal;
+font-weight: 300;
+line-height: normal;
+letter-spacing: -0.45px;
+}
+.login .content_login  div p a{
+    color: #06965C;
+}

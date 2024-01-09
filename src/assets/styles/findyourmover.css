@@ -1,0 +1,79 @@
+.find_yourmover {
+  height: 393px;
+  border-radius: 5px;
+  background: #f9f9f9;
+  margin-top: 105px;
+  padding-top: 94px;
+  padding-inline: 160px;
+}
+.find_yourmover h1 {
+  color: #262525;
+  text-align: center;
+  font-family: Noto Sans;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 900;
+  line-height: normal;
+  letter-spacing: -0.96px;
+  width: fit-content;
+  margin: auto;
+}
+.find_yourmover .list_locations{
+    display: flex;
+    margin-top: 45px;
+    justify-content: space-between;
+}
+.find_yourmover .list_locations ul{
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+
+}
+.find_yourmover .list_locations ul li{
+    color: #06965C;
+font-family: Noto Sans;
+font-size: 16px;
+font-style: normal;
+font-weight: 500;
+line-height: 42px; /* 262.5% */
+letter-spacing: -0.48px;
+text-decoration-line: underline;
+}
+.find_yourmover .list_locations ul li span{
+    color: #000;
+font-family: Noto Sans;
+font-size: 13px;
+font-style: normal;
+font-weight: 300;
+line-height: normal;
+letter-spacing: -0.39px;
+margin-left: 10px;
+}
+.find_yourmover .svg{
+  display: none;
+}
+@media screen and (max-width: 600px) {
+  .find_yourmover h1{
+    font-size: 26px; 
+     
+  }
+  .find_yourmover{
+    padding-inline: 0px;
+    padding-top: 49px;
+    overflow: hidden;
+  }
+  .find_yourmover .list_locations ul li{
+    width: 327px;
+    text-align: center;
+
+  }
+  .find_yourmover .svg{
+    display: flex;
+    position: absolute;
+    width: 90%;
+    transform: translate(-50%,-50%);
+    top: 50%;
+    left: 50%;
+    justify-content: space-between;
+  }
+  }

@@ -1,0 +1,383 @@
+.home {
+  position: relative;
+  width: 100%;
+  margin-top: 112px;
+}
+.home .image {
+  height: 582px;
+  width: 100%;
+  position: relative;
+}
+.home .image img {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+}
+.home .image .overly {
+  position: absolute;
+  background: black;
+  z-index: 1;
+  width: 100%;
+  height: 100%;
+  opacity: 0.6;
+}
+.home .serching {
+  position: absolute;
+  top: 335px;
+  z-index: 2;
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  align-items: center;
+}
+.home .serching p {
+  color: #fff;
+  text-align: center;
+  font-size: 45px;
+  font-style: normal;
+  font-weight: 900;
+  line-height: normal;
+  letter-spacing: -1.35px;
+}
+
+.serching .form {
+  display: flex;
+  padding: 17px 15px;
+  align-items: center;
+  gap: 15px;
+  height: 80px;
+  border-radius: 5px;
+  background: #fff;
+  box-shadow: 0px 14px 44px 0px rgba(0, 0, 0, 0.15);
+}
+.serching .form .find_input {
+  width: 323px;
+  padding: 17px 15px;
+  border-radius: 5px;
+  border: 1px solid #d1d1d1;
+  background: #fff;
+  color: #272930;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: normal;
+  outline: none;
+}
+.serching .form select {
+  width: 323px;
+  height: 55px;
+  border-radius: 5px;
+  border: 1px solid #d1d1d1;
+  background: #fff;
+  padding: 11px 15px;
+  color: #272930;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: normal;
+  outline: none;
+}
+.serching .form a {
+  border-radius: 5px;
+  border: 1px solid #06965c;
+  background: #06965c;
+  width: 323px;
+  height: 55px;
+  color: #fff;
+  font-family: Noto Sans;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.home .container {
+  position: relative;
+}
+.home .container .line {
+  height: 1px;
+  background: #e5e5e5;
+}
+/*Statistics*/
+.home .container .statistics {
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  position: relative;
+  margin: 67px 0;
+}
+.home .container .statistics .pre_next {
+  position: absolute;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  display: none;
+  justify-content: space-between;
+}
+.home .container .statistics .box h1 {
+  color: #06965c;
+  text-align: center;
+  font-size: 45px;
+  font-style: normal;
+  font-weight: 900;
+  line-height: normal;
+  letter-spacing: -1.35px;
+}
+.home .container .statistics .box span {
+  color: #272930;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: normal;
+  text-transform: uppercase;
+}
+.home .container .statistics .box {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  position: relative;
+}
+.home .container .statistics .box::after {
+  content: "/";
+  color: #06965c;
+  font-size: 15px;
+  right: -65px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: normal;
+  text-transform: uppercase;
+  position: absolute;
+}
+.home .container .statistics .box h1 span {
+  font-weight: 300;
+  color: #06965c;
+  text-align: center;
+  font-size: 45px;
+  font-style: normal;
+  /* font-weight: 900; */
+  line-height: normal;
+  letter-spacing: -1.35px;
+}
+
+.home .content_services {
+  margin-top: 84px;
+}
+.home .content_services .container {
+  position: relative;
+}
+.home .content_services .container .list {
+  margin-top: 83px;
+  display: flex;
+  gap: 26.4px;
+}
+
+/* Moving Companies Ratings and Reviews*/
+
+.home .moving_companies {
+  color: #262525;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 900;
+  line-height: normal;
+  letter-spacing: -0.96px;
+  margin-top: 77px;
+}
+.home .companies_rating_services {
+  display: flex;
+  gap: 187px;
+  margin-top: 40px;
+}
+.home .companies_rating_services p {
+  color: #000;
+  font-family: Noto Sans;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: normal;
+  letter-spacing: -0.45px;
+  width: 865px;
+}
+.home .companies_rating_services .img_rating {
+  width: 241px;
+  height: 330px;
+  flex-shrink: 0;
+  border-radius: 5px;
+  background: #ebfafd;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.home .companies_rating_services .img_rating img {
+  width: 441px;
+  height: 330px;
+}
+.home .what_is_mouving_service {
+  color: #000;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: -0.54px;
+  margin-top: 26px;
+}
+.home .parag {
+  color: #000;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: normal;
+  letter-spacing: -0.45px;
+  margin-top: 20px;
+}
+.home .list_mouving li {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  color: #545c71;
+  font-size: 13px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 30px; /* 230.769% */
+  letter-spacing: -0.39px;
+}
+.home .dropDown {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  width: 157px;
+  height: 38px;
+  flex-shrink: 0;
+  justify-content: center;
+  margin-top: 40px;
+  border-radius: 5px;
+  background: #f9f9f9;
+}
+.home .dropDown span {
+  color: #000;
+  text-align: center;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: -0.45px;
+}
+
+.home #showplus {
+  display: none;
+}
+@media only screen and (max-width: 600px) {
+  .home .serching p {
+    font-size: 26px;
+    width: 302px;
+  }
+  .home {
+    margin-top: 0;
+  }
+  .serching .form .find_input {
+    width: 100%;
+  }
+  .home .serching {
+    top: 341px;
+    width: 100%;
+  }
+  .serching .form {
+    flex-direction: column;
+    height: fit-content;
+    background: none;
+    box-shadow: none;
+    width: 100%;
+  }
+  .serching .form a {
+    width: 100%;
+  }
+  .serching .form select {
+    width: 100%;
+  }
+  .home .image {
+    height: 681px;
+    padding-top: 112px;
+  }
+  .home #showplus {
+    display: block;
+  }
+  .home .container .statistics {
+    height: 192px;
+    overflow: hidden;
+    display: flex;
+    height: 61px;
+    margin-top: 179px;
+    width: 100%;
+  }
+  .home .container .statistics{
+    display: none;
+  }
+  .home .container .statistics .box {
+    width: 100%;
+    height: 61px;
+    justify-content: center;
+  }
+  .home .container .statistics .box::after {
+    content: "";
+  }
+  .home .container .statistics .pre_next {
+    display: flex;
+  }
+  .home .container .line {
+    display: none;
+  }
+  .top_companies .container .titl {
+    flex-direction: column;
+  }
+  .top_companies .container .title h1 {
+    font-size: 26px;
+  }
+  .top_companies .container .select_buttons {
+    position: none;
+    justify-content: center;
+  }
+  .top_companies .top_head {
+    display: flex;
+    flex-direction: column;
+  }
+  .home .mobile {
+    display: block;
+  }
+  .home .bg {
+    display: none;
+  }
+  .home .moving_companies {
+    font-size: 26px;
+    width: 300px;
+    text-align: center;
+    margin: 77px auto 0;
+  }
+  .home .companies_rating_services {
+    flex-direction: column;
+    flex-flow: wrap-reverse;
+  }
+  .home .companies_rating_services {
+    gap: 30px;
+  }
+  .home .companies_rating_services p {
+    height: 182px;
+    width: 100%;
+    overflow: hidden;
+  }
+  .home .companies_rating_services .img_rating {
+    width: 100%;
+    height: 276px;
+    position: relative;
+  }
+  .home .companies_rating_services .img_rating img {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+  }
+  .home .mobile_div {
+    display: none;
+  }
+}

@@ -1,0 +1,114 @@
+.tricks .top_head {
+  background: #f9f9f9;
+  height: 160px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.tricks {
+  margin-top: 112px;
+}
+.tricks .top_head h1 {
+  color: #262525;
+  text-align: center;
+  font-family: Noto Sans;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: -0.96px;
+}
+.tricks .trick_content {
+  margin-top: 46px;
+  display: grid;
+  grid-template-columns: auto auto;
+  gap: 40px;
+}
+/* Start Trick Component*/
+.trick_component {
+  padding: 40px 48px;
+  border-radius: 5px;
+  background: #f9f9f9;
+  display: flex;
+  gap: 50px;
+  cursor: pointer;
+  border: 1px solid transparent;
+}
+.trick_component:hover .info  svg{
+    display: block;
+}
+.trick_component:hover {
+    background: transparent;
+    border: 1px solid #9C9C9C;
+}
+.trick_component:hover  .info a{
+    color: #06965C;
+    text-decoration: none;
+}
+.trick_component .info  {
+    position: relative;
+}
+.trick_component .info  svg{
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    display: none;
+}
+.trick_component .info h1 {
+  color: #272930;
+  font-family: Noto Sans;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: -0.54px;
+}
+.trick_component .info .line {
+  margin-top: 31px;
+  background: #e5e5e5;
+  height: 1px;
+}
+.trick_component .info p {
+  color: #000;
+  font-family: Noto Sans;
+  font-size: 13px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: normal;
+  letter-spacing: -0.39px;
+  margin-top: 21px;
+}
+.trick_component .info a {
+  color: #9c9c9c;
+  font-size: 13px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 42px; /* 323.077% */
+  letter-spacing: -0.39px;
+  text-decoration-line: underline;
+}
+/*End Trick Component*/
+/*media query*/
+@media only screen and (max-width: 600px) {
+  .tricks .Breadcrumb{
+    justify-content: center;
+  }
+  .trick_component{
+    flex-direction: column;
+    padding: 22px;
+  }
+  .tricks .trick_content {
+    grid-template-columns: auto;
+  }
+  .trick_component .image{
+    position: relative;
+    height: 186px;
+    width: 100%;
+  }
+  .trick_component .image img{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+  }
+  
+}

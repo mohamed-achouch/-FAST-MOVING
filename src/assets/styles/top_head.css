@@ -1,0 +1,49 @@
+ .head .title {
+    color: #262525;
+    text-align: center;
+    font-family: Noto Sans;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: normal;
+    letter-spacing: -0.96px;
+    width: fit-content;
+    display: flex;
+    align-items: center;
+    gap: 12px;
+  }
+  .head .svg{
+    position: absolute;
+    right: 10px;
+    top: 10px;
+  }
+  .head .svg svg{
+    cursor: pointer;
+  }
+
+
+  .head .title .see_all{
+    color: #06965c;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+    letter-spacing: -0.45px;
+    margin-top: 3px;
+  }
+
+  @media screen and (max-width: 600px) {
+    .head .svg{
+     display: none;
+    }
+    .reviews {
+      display: none;
+    }
+     .head .title{
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      width: 100%;
+    }
+  }
+

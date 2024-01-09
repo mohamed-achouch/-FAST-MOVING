@@ -1,0 +1,64 @@
+:root {
+  --Venetian_Red: #d41638;
+  --Snow_Drift: #f9f9f9;
+  --Shamrock_Green: #06965c;
+  --Black: #000000;
+  --White: #ffffff;
+  --Mercury: #e5e5e5;
+  --Grey_Goose: #d1d1d1;
+  --Baltic_Sea: #272930;
+  --Toxic_Green: #7ede2c;
+  --Amaranth: #e0294a;
+  --Star_Dust: #9c9c9c;
+  --Fire_Engine_Red: #d41638;
+}
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  /* text-transform: capitalize; */
+  text-decoration: none;
+  list-style: none;
+  font-family: "Noto Sans", sans-serif;
+  /*box-shadow: 0 0 0 3px red inset;*/
+}
+html {
+  scroll-behavior: smooth;
+}
+.container {
+  margin: auto;
+}
+@media screen and (max-width: 576px) {
+  .container {
+    width: 100%;
+    position: relative;
+    width: 94%;
+  }
+}
+
+@media screen and (min-width: 576px) {
+  .container {
+    width: 540px;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .container {
+    width: 720px;
+  }
+}
+@media screen and (min-width: 992px) {
+  .container {
+    width: 960px;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .container {
+    width: 1140px;
+  }
+}
+@media screen and (min-width: 1440px) {
+  .container {
+    width: calc(1440px - 67px);
+  }
+}

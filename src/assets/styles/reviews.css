@@ -1,0 +1,8 @@
+.reviews{
+    margin-top: 120px;
+}
+.reviews .content{
+    display: flex;
+    gap: 30px;
+    margin-top: 42px;
+}

@@ -1,0 +1,136 @@
+.get_qoute {
+  background: #f9f9f9;
+  margin-top: 112px;
+  padding-top: 56px;
+  padding-bottom: 77px;
+}
+.get_qoute h1 {
+  color: #262525;
+  text-align: center;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: -0.96px;
+  width: fit-content;
+  margin: auto;
+}
+.get_qoute p {
+  color: #000;
+  text-align: center;
+  font-family: Noto Sans;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: normal;
+  letter-spacing: -0.45px;
+  width: fit-content;
+  margin: auto;
+  margin-top: 14px;
+}
+.get_qoute .input_content {
+  display: grid;
+  grid-template-columns: auto auto;
+  margin: auto;
+  gap: 32px;
+  width: fit-content;
+  margin-top: 40px;
+}
+.get_qoute .input_content .box {
+  width: fit-content;
+  display: flex;
+  gap: 12px;
+  flex-direction: column;
+}
+.get_qoute .input_content .box .label {
+  color: #272930;
+  font-family: Noto Sans;
+  font-size: 13px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+.get_qoute .input_content .box input {
+  border-radius: 5px;
+  border: 1px solid #d1d1d1;
+  background: #fff;
+  width: 363px;
+  height: 50px;
+  padding-left: 27px;
+  color: #242222;
+  font-family: Noto Sans;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: normal;
+  outline: none;
+}
+.get_qoute .container .size {
+  color: #272930;
+  font-family: Noto Sans;
+  font-size: 13px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  display: flex;
+  margin: 40px auto 0;
+  width: fit-content;
+}
+.get_qoute .container .radio_buttons{
+    width: fit-content;
+    margin: 18px auto 36px;
+    display: flex;
+    gap: 23px;
+    align-items: center;
+}
+.get_qoute .container .radio_buttons .radio{
+    width: fit-content;   
+    display: flex;
+    gap: 3px;
+    align-items: center;
+}
+.get_qoute .container .getqoute{
+    width: 168px;
+    height: 50px;
+    border-radius: 5px;
+    border: 1px solid #06965c;
+    background: #06965c;   
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    font-size: 15px;
+    font-weight: 700;
+    margin: auto;
+}
+.get_qoute .container .radio_buttons .radio input[type="radio"]:checked{
+    background-color: red !important;
+}
+
+
+/*Media Query*/
+@media only screen and (max-width: 600px) {
+ 
+  .get_qoute .input_content{
+    grid-template-columns: auto;
+    width: 100%;
+  }
+  .get_qoute .container .radio_buttons{
+    display: grid;
+    grid-template-columns: auto auto;
+    margin: 18px 0;
+  }
+  .get_qoute .container .getqoute{
+    width: 198px;
+    margin: 26px 0;
+  }
+  .get_qoute .input_content .box{
+    width: 94%;
+    margin: auto;
+    justify-content: start;
+  }
+  .get_qoute .input_content .box input{
+    width: 100%;
+  }
+  }
+  

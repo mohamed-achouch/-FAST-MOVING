@@ -1,0 +1,205 @@
+.footer {
+  background: #fff;
+  height: 416px;
+  padding: 93px;
+  position: relative;
+}
+.list_footer {
+  display: flex;
+  justify-content: space-between;
+}
+.list_footer .logo span {
+  color: #06965c;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: normal;
+  text-transform: uppercase;
+}
+.list_footer .logo svg {
+  width: 22.759px;
+  height: 22px;
+}
+.list_footer .logo {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 13.24px;
+  width: fit-content;
+}
+
+.list_footer .box .nav {
+  display: flex;
+  gap: 33px;
+  margin-left: 36px;
+  margin-top: 40px;
+}
+.list_footer .box .nav li a,
+.list_footer .box .nav_left li a {
+  color: #272930;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+.list_footer .box .nav_left {
+  display: flex;
+  gap: 33px;
+  margin-left: 36px;
+  margin-top: 24px;
+}
+
+.list_footer .box .nav_left li .plus {
+  color: #06965c;
+  font-family: Noto Sans;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  margin-right: 7px;
+}
+.list_footer .box p {
+  width: 256px;
+  color: #adafb6;
+  font-family: Noto Sans;
+  font-size: 13px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: -0.39px;
+  margin: 51px 36px;
+}
+.footer .list_footer .moving_servise .footer .list_footer .single {
+  display: flex;
+  flex-direction: column;
+}
+.footer .list_footer .moving_servise li:first-child {
+  color: #000;
+  font-family: Noto Sans;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 40px; /* 266.667% */
+  letter-spacing: -0.45px;
+  text-transform: uppercase;
+  margin-bottom: 21px;
+}
+.footer .list_footer .moving_servise li a,
+.footer .list_footer .single li a {
+  color: #53596f;
+  font-family: Noto Sans;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 40px; /* 266.667% */
+  letter-spacing: -0.45px;
+}
+.footer .list_footer .moving_servise li a:hover,
+.footer .list_footer .single li a:hover {
+  color: #06965c;
+  font-weight: 400;
+  line-height: 40px;
+  text-decoration-line: underline;
+}
+.footer .list_footer .single {
+  margin-top: 61px;
+}
+.footer .go_to_top {
+  display: none;
+}
+
+/*Free Moving*/
+.free_Moving {
+  height: 416px;
+  background: #f9f9f9;
+  margin-top: 120px;
+  padding: 95px;
+  position: relative;
+}
+.free_Moving h1 {
+  color: #2e2f32;
+  text-align: center;
+  font-family: Noto Sans;
+  font-size: 45px;
+  font-style: normal;
+  font-weight: 900;
+  line-height: normal;
+  letter-spacing: -1.35px;
+}
+.free_Moving span {
+  color: #272930;
+  margin: 17px auto;
+  width: fit-content;
+  display: block;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: normal;
+  text-transform: uppercase;
+}
+.free_Moving .container .serching {
+  top: 140px;
+}
+.showplus {
+  display: none;
+  margin-top: 37px;
+}
+.mobile {
+  display: none;
+}
+@media only screen and (max-width: 600px) {
+  .footer {
+    padding: 10px;
+    height: 258px;
+    margin-bottom: 46px;
+  }
+  .list_footer {
+    padding-top: 30px;
+    display: flex;
+    justify-content: center;
+}
+  .footer #box {
+    display: none;
+  }
+  .footer #mobile_footer {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  .list_footer .box .nav {
+    gap: 24px;
+    margin-left: 0px;
+  }
+  .footer .go_to_top {
+    display: block;
+    width: -moz-fit-content;
+    width: fit-content;
+    /* margin: 37px auto 20px; */
+    margin-bottom: 36px;
+    position: absolute;
+    bottom: -93px;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+  /*Free Moving*/
+  .free_Moving {
+    padding: 57px 0 68px;
+    height: 573px;
+    background: #f9f9f9;
+    margin-top: 63px;
+    position: relative;
+  }
+  .free_Moving h1 {
+    font-size: 26px;
+    margin: 18px auto 0;
+    padding: 0 25px;
+  }
+  .free_Moving .serching {
+    position: relative;
+  }
+  .free_Moving .container .serching {
+    top: 0px;
+  }
+}
